@@ -1,0 +1,1 @@
+ aws s3 cp --no-sign-request s3://umbra-open-data-catalog/sar-data/tasks/ ./jsonfiles032524 --recursive --exclude "*" --include "*.json/"
